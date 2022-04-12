@@ -1,7 +1,7 @@
 # Login_Page_weniv
 
 ## 0412 login page 구현 tip
-- clear-fix를 가상요소를 사용하여 맨 마지막에 둬
+- 가상요소 `::after`를 사용하여 clear-fix를 맨 마지막에 두어
 앞에 있는 형제들의 float를 해제한다 
 
 - 가상요소는 기본적으로 inline 요소로 width, height 쓸 수 없음 
