@@ -1,0 +1,122 @@
+/* reset css */
+article, h2, p, a, img, div{
+    padding: 0;
+    margin: 0;
+}
+
+/* 유틸리티 css 먼저 씀  */
+.blind{
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+
+.clear-fix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* design 준비 */
+a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #767676;
+}
+
+body{
+    background-color: #e5e5e5;
+}
+
+.cont-btn img{
+    width:64px;
+    height:18px;
+}
+
+.img-find, .img-signup{
+    width: 16px;
+    height: 16px;
+}
+
+/* design */
+.cont-login{
+    margin: 20px auto;
+    width: 350px;
+    box-sizing: border-box;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding: 18px 15px 17px;    
+}
+
+.cont-login .txt-login{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #000000;
+}
+
+.cont-login .cont-btn{
+    margin: 16px 0 17px;
+    display: block;
+    background-color: #711BFF;
+    border-radius: 4px;
+    padding: 10px 0 12px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    margin-top: 16px;
+    color: #FFFFFF;
+}
+
+.cont-btn .logo-btn{
+    vertical-align: bottom;
+    margin-right: 4px;
+}
+
+.cont-find{
+    float: left;
+}
+
+.cont-find .img-find{
+    float: left;
+    margin: -1px 4px 0 0;
+}
+
+.cont-find .id-find, .cont-find .pw-find{
+    float: left;
+}
+
+.cont-find .id-find::after{
+    float: right;
+    display: block;
+    content: '';
+    width: 1px;
+    height: 12px;
+    margin: 0 4px;
+    background-color: #767676;
+}
+
+.cont-login .cont-signup{
+    float: right;
+}
+
+.cont-signup .img-signup{
+    margin : -1px 4px 0 0;
+}
+
+.cont-signup .img-signup, .cont-signup .txt-signup{
+    float: left;
+}
+
+.cont-find .id-find::after{
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    color: #767676;
+}
