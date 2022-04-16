@@ -1,4 +1,4 @@
-# Login_Page_weniv
+# Login_Page
 
 ## 0412 login page 구현 tip
 - 가상요소 `::after`를 사용하여 clear-fix를 맨 마지막에 두어
